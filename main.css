@@ -51,17 +51,30 @@ height:2.5em;
 #HowItWorks{
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
   width: 100%;
   line-height: 3rem;
-  margin-left: 50px;
-  justify-content: center;
+  justify-content: flex-end;
   margin-bottom: 150px;
+  background-image: url(images/upcloseplant.png);
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .aboutProduct{
   margin-right: 50px;
   width:600px;
+  color:white;
   align-self: center;
+}
+
+.whatsinit{
+  color: white;
+  align-self: center;
+  width:500px;
+  margin-right: 50px;
 }
 
 #benefits{
@@ -82,9 +95,8 @@ height:2.5em;
 .headerBenefits{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-self: center;
 }
+
 .aboutBenefits {
   display: flex;
   flex-direction: row;
@@ -102,17 +114,23 @@ height:2.5em;
   align-self: center;
   flex-direction: row;
 }
+
 .benefitImages img{
   margin-top: 50px;
   width: 200px;
 }
+
+.imagetag{
+  flex-direction: row;
+}
+
 #cost{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
   background-image: url(images/soil.png);
-  height: 500px;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
