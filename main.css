@@ -48,7 +48,7 @@ height:2.5em;
   padding: 20px;
   text-decoration: none;
 }
-.howItWorks{
+#HowItWorks{
   display: flex;
   flex-direction: row;
   margin-top: 100px;
@@ -64,7 +64,7 @@ height:2.5em;
   align-self: center;
 }
 
-.benefits{
+#benefits{
   display: flex;
   width: 100%;
   justify-content: center;
@@ -73,12 +73,12 @@ height:2.5em;
   margin-bottom: 125px;
 }
 
-.benefits h2{
+#benefits h2{
   text-align: center;
   justify-content: center;
   align-self: center;
-
 }
+
 .headerBenefits{
   display: flex;
   flex-direction: column;
@@ -88,6 +88,9 @@ height:2.5em;
 .aboutBenefits {
   display: flex;
   flex-direction: row;
+  line-height: 3rem;
+  justify-content: center;
+  align-self: center;
 }
 
 .aboutBenefits p{
@@ -100,9 +103,10 @@ height:2.5em;
   flex-direction: row;
 }
 .benefitImages img{
+  margin-top: 50px;
   width: 200px;
 }
-.cost{
+#cost{
   display: flex;
   flex-direction: column;
   justify-content: center;
