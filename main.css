@@ -1,26 +1,28 @@
 body{
-  font-family:'Merriweather', serif;
-margin:0;
+font-family:'Merriweather', serif;
+margin:0 auto;
 }
 .wrapper{
-  background-color:#F2F1E8;
-  width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  overflow: hidden;
 }
+
 #site-header{
   background-color: #FFFFFF;
   padding-left: 20px;
   display:flex;
   height: 60px;
   position: fixed;
+  width:100%;
   top:0;
   left:100;
   right:200;
-  width: 1260px;
-  /*justify-content: center;*/
   box-shadow: 0 0 20px 0 #968772;
 }
+.logo-image{
+  align-self: center;
+}
+
 #logo img{
 height:2.5em;
 }
@@ -42,9 +44,79 @@ height:2.5em;
 }
 #main-nav a{
   text-transform: uppercase;
-  color: ##2B2F26;
+  color: #2B2F26;
   padding: 20px;
+  text-decoration: none;
 }
-#main-nav a:hover{
-  color:#fff;
-  background-color: #967343;
+.howItWorks{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  width: 100%;
+  line-height: 3rem;
+  margin-left: 50px;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.aboutProduct{
+  margin-right: 50px;
+  width:600px;
+  align-self: center;
+}
+
+.benefits{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 125px;
+}
+
+.benefits h2{
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+
+}
+.headerBenefits{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.aboutBenefits {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutBenefits p{
+  margin-right: 50px;
+}
+
+.benefitImages{
+  justify-content: center;
+  align-self: center;
+  flex-direction: row;
+}
+.benefitImages img{
+  width: 200px;
+}
+.cost{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-image: url(images/soil.png);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headerCost{
+  color:white;
+  line-height: 3rem;
+  justify-content: center;
+  margin-left: 100px;
+}
