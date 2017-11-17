@@ -48,20 +48,30 @@ height:2.5em;
   padding: 20px;
   text-decoration: none;
 }
+#main-nav a:hover{
+  color:#f37321;
+}
 #HowItWorks{
   display: flex;
   flex-direction: row;
   width: 100%;
   line-height: 3rem;
   justify-content: flex-end;
-  margin-bottom: 150px;
   background-image: url(images/upcloseplant.png);
-  height: 700px;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+.how{
+  display: flex;
+  flex-direction: column;
+}
+.howHeader{
+  margin-top: 100px;
+  color: white;
 }
 .aboutProduct{
   margin-right: 50px;
@@ -75,15 +85,16 @@ height:2.5em;
   align-self: center;
   width:500px;
   margin-right: 50px;
+  margin-top: 50px;
 }
 
 #benefits{
   display: flex;
   width: 100%;
-  justify-content: center;
   flex-direction: column;
   align-self: center;
   margin-bottom: 125px;
+  padding-top: 75px;
 }
 
 #benefits h2{
@@ -95,24 +106,28 @@ height:2.5em;
 .headerBenefits{
   display: flex;
   flex-direction: column;
+  margin-left: 115px;
 }
 
 .aboutBenefits {
   display: flex;
   flex-direction: row;
   line-height: 3rem;
-  justify-content: center;
-  align-self: center;
+  margin-left: 70px;
+  font-size: 18px;
 }
 
 .aboutBenefits p{
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .benefitImages{
+  display: flex;
   justify-content: center;
   align-self: center;
   flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .benefitImages img{
@@ -122,6 +137,8 @@ height:2.5em;
 
 .imagetag{
   flex-direction: row;
+  width: 250px;
+  text-align: center;
 }
 
 #cost{
